@@ -14,7 +14,7 @@
         "type": "response",
         "response": "END More information is coming soon",
         "next_menu_level": null,
-        "action": "PROCESS_ACC_PHONE_NUMBER"
+        "action": "PROCESS_MY_SERVICE"
       }
     ],
     "max_selections": 3
@@ -28,13 +28,13 @@
         "type": "response",
         "response": "END \n1.Suits ksh 200\n 2.T-shirts,Blouse,Shirt ksh 50\n3.Jackets and sweaters ksh 150",
         "next_menu_level": null,
-        "action": "PROCESS_ACC_NUMBER"
+        "action": "PROCESS_INFORMATION_SERVICE"
       },
       {
         "type": "response",
         "response": "END We are cleaning services provider company providing at your doorstep",
         "next_menu_level": null,
-        "action": "PROCESS_ACC_BALANCE"
+        "action": "PROCESS_ABOUT"
       }
     ],
     "max_selections": 3
