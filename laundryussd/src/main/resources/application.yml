@@ -1,0 +1,7 @@
+
+moreetech:
+  cache:
+    port: 10044
+    host: redis-10044.c291.ap-southeast-2-1.ec2.cloud.redislabs.com
+    password: mu2fA6zDYxuQsm40FW5Vwrufa1OBJa9R
+    default-ttl: 180
