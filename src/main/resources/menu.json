@@ -2,7 +2,7 @@
   "1": {
     "id": 230,
     "menu_level": 1,
-    "text": "Welcome to MavelLaundryService\n1.My Services\n2.Information \n3.About",
+    "text": "CON Welcome to MavelLaundryService\n1.My Services\n2.Information \n3.About",
     "menu_options": [
       {
         "type": "level",
@@ -22,7 +22,7 @@
   "2": {
     "id": 230,
     "menu_level": 2,
-    "text": "Select Service of Your interest \n1. Account number\n2. Account balance",
+    "text": "CON Choose account \n1. Account number\n2. Account balance",
     "menu_options": [
       {
         "type": "response",
