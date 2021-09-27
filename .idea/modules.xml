@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/USSDAPP.iml" filepath="$PROJECT_DIR$/.idea/USSDAPP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/laundryussd/laundryussd.iml" filepath="$PROJECT_DIR$/laundryussd/laundryussd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laundryussd.iml" filepath="$PROJECT_DIR$/laundryussd.iml" />
     </modules>
   </component>
 </project>
