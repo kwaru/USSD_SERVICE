@@ -2,7 +2,7 @@
   "1": {
     "id": 230,
     "menu_level": 1,
-    "text": "CON Welcome to MavelLaundryService\n1.My Services\n2.Information \n3.About",
+    "text": "CON CleanLaundryService\n1.My Services\n2.Information \n3.About",
     "menu_options": [
       {
         "type": "level",
@@ -22,11 +22,11 @@
   "2": {
     "id": 230,
     "menu_level": 2,
-    "text": "CON Choose account \n1. Account number\n2. Account balance",
+    "text": "CON Choose account \n1. Laundry Service Pricing\n2. Home Car wash",
     "menu_options": [
       {
         "type": "response",
-        "response": "END Your account number is ${account_number}",
+        "response": "END \n1.Suits ksh 200\n 2.T-shirts,Blouse,Shirt ksh 50\n3.Jackets and sweaters ksh 150",
         "next_menu_level": null,
         "action": "PROCESS_ACC_NUMBER"
       },
