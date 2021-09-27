@@ -12,7 +12,7 @@
       },
       {
         "type": "response",
-        "response": "END Your Phone Number is ${phone_number}",
+        "response": "END More information is coming soon",
         "next_menu_level": null,
         "action": "PROCESS_ACC_PHONE_NUMBER"
       }
@@ -32,7 +32,7 @@
       },
       {
         "type": "response",
-        "response": "END Your Account balance is ${account_balance}",
+        "response": "END We are cleaning services provider company providing at your doorstep",
         "next_menu_level": null,
         "action": "PROCESS_ACC_BALANCE"
       }
