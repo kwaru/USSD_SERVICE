@@ -15,6 +15,12 @@
         "response": "END More information is coming soon",
         "next_menu_level": null,
         "action": "PROCESS_MY_SERVICE"
+      },
+      {
+        "type": "response",
+        "response": "END We are cleaning services provider company providing at your doorstep",
+        "next_menu_level": null,
+        "action": "PROCESS_ABOUT"
       }
     ],
     "max_selections": 3

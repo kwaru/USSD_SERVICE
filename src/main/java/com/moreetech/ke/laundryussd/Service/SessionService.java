@@ -15,6 +15,7 @@ public class SessionService {
     private UssdSessionRepository ussdSessionRepository;
 
     public UssdSession createUssdSession(UssdSession session) {
+        System.out.println("This is the session id "+session.getSessionId());
         return ussdSessionRepository.save(session);
     }
 
@@ -24,9 +25,10 @@ public class SessionService {
 
     public UssdSession update(UssdSession session) {
         if (ussdSessionRepository.existsById(session.getId())) {
+
             return ussdSessionRepository.save(session);
         }
-        throw new IllegalArgumentException("A car must have an id to be updated");
+        throw new IllegalArgumentException("must have an id to be updated");
     }
 
     public void delete(String id) {
