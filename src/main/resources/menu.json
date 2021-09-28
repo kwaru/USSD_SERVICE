@@ -33,13 +33,13 @@
       {
         "type": "response",
         "response": "END \n1.Suits ksh 200\n 2.T-shirts,Blouse,Shirt ksh 50\n3.Jackets and sweaters ksh 150",
-        "next_menu_level": null,
+        "next_menu_level": 3,
         "action": "PROCESS_INFORMATION_SERVICE"
       },
       {
         "type": "response",
-        "response": "END  \n1.Saloon cars ksh 400\n 2.Lorries 1000\n3.Tuk tuk ksh 250",
-        "next_menu_level": null,
+        "response": "CON  \n1.Saloon cars ksh 400\n 2.Lorries 1000\n3.Tuk tuk ksh 250",
+        "next_menu_level": 3,
         "action": "PROCESS_ABOUT"
       }
     ],
@@ -60,7 +60,7 @@
       },
       {
         "type": "response",
-        "response": "END  \n1.Saloon cars ksh 400\n 2.Lorries 1000\n3.Tuk tuk ksh 250",
+        "response": "END  Full names2: ",
         "next_menu_level": null,
         "action": "PROCESS_ABOUT"
       }
