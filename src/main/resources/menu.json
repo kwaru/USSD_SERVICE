@@ -49,7 +49,7 @@
   "3": {
     "id": 230,
     "menu_level": 3,
-    "text": "CON Select Option \n1. Laundry Service Pricing\\n2. Home Car wash\"",
+    "text": "CON Enter your Details",
     "menu_options": [
       {
         "type": "response",
