@@ -17,7 +17,7 @@
         "action": "PROCESS_MY_SERVICE"
       },
       {
-        "type": "level",
+        "type": "response",
         "response": "CON Select Service \n1. Laundry Service \n2. Home Car wash",
         "next_menu_level": 3,
         "action": "PROCESS_ABOUT"
@@ -46,7 +46,6 @@
     "max_selections": 3
   },
 
-
   "3": {
     "id": 230,
     "menu_level": 3,
@@ -54,13 +53,13 @@
     "menu_options": [
       {
         "type": "response",
-        "response": "END Full names:",
+        "response": "CON Full names:",
         "next_menu_level": null,
         "action": "PROCESS_INFORMATION_SERVICE"
       },
       {
         "type": "response",
-        "response": "END  Full names2: ",
+        "response": "CON  Full names2: ",
         "next_menu_level": null,
         "action": "PROCESS_ABOUT"
       }
