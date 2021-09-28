@@ -18,9 +18,9 @@
       },
       {
         "type": "level",
-        "response": null,
+        "response": "CON Select Service \n1. Laundry Service \n2. Home Car wash",
         "next_menu_level": 3,
-        "action": null
+        "action": "PROCESS_ABOUT"
       }
     ],
     "max_selections": 3
