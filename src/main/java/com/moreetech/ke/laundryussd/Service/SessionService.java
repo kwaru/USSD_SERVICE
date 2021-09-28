@@ -15,7 +15,7 @@ public class SessionService {
     private UssdSessionRepository ussdSessionRepository;
 
     public UssdSession createUssdSession(UssdSession session) {
-        System.out.println("This is the session id "+session.getSessionId());
+      //  System.out.println("This is the session id "+session.getSessionId());
         return ussdSessionRepository.save(session);
     }
 
