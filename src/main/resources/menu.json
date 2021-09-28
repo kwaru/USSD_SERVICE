@@ -38,7 +38,7 @@
       },
       {
         "type": "response",
-        "response": "END We are cleaning services provider company providing at your doorstep",
+        "response": "END  \n1.Saloon cars ksh 400\n 2.Lorries 1000\n3.Tuk tuk ksh 250",
         "next_menu_level": null,
         "action": "PROCESS_ABOUT"
       }
