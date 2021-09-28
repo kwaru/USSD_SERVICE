@@ -17,10 +17,10 @@
         "action": "PROCESS_MY_SERVICE"
       },
       {
-        "type": "response",
-        "response": "CON Request For Service \n1. Laundry Service Pricing\n2. Home Car wash",
+        "type": "level",
+        "response": null,
         "next_menu_level": 3,
-        "action": "PROCESS_ABOUT"
+        "action": null
       }
     ],
     "max_selections": 3
