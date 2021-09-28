@@ -17,10 +17,10 @@
         "action": "PROCESS_MY_SERVICE"
       },
       {
-        "type": "response",
-        "response": "CON Select Service \n1. Laundry Service \n2. Home Car wash",
+        "type": "level",
+        "response": null,
         "next_menu_level": 3,
-        "action": "PROCESS_ABOUT"
+        "action": null
       }
     ],
     "max_selections": 3
@@ -28,7 +28,7 @@
   "2": {
     "id": 230,
     "menu_level": 2,
-    "text": "CON Select Option \n1. Laundry Service Pricing\n2. Home Car wash",
+    "text": "CON Select Option \n1. Laundry Service Pricing\n2. Home Car wash pricing",
     "menu_options": [
       {
         "type": "response",
@@ -49,17 +49,17 @@
   "3": {
     "id": 230,
     "menu_level": 3,
-    "text": "Enter your details",
+    "text": "CON Select Option \n1. Laundry Service Pricing\\n2. Home Car wash\"",
     "menu_options": [
       {
         "type": "response",
-        "response": "CON Full names:",
+        "response": "END Full names:",
         "next_menu_level": null,
         "action": "PROCESS_INFORMATION_SERVICE"
       },
       {
         "type": "response",
-        "response": "CON  Full names2: ",
+        "response": "END  Id number: ",
         "next_menu_level": null,
         "action": "PROCESS_ABOUT"
       }
