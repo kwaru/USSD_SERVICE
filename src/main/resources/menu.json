@@ -2,7 +2,7 @@
   "1": {
     "id": 230,
     "menu_level": 1,
-    "text": "CON CleanLaundryService\n1.My Services\n2.Information \n3.About",
+    "text": "CON CleanLaundryService\n1.My Services\n2.Information \n3.Request Service",
     "menu_options": [
       {
         "type": "level",
@@ -18,8 +18,8 @@
       },
       {
         "type": "response",
-        "response": "END We are cleaning services provider company providing at your doorstep",
-        "next_menu_level": null,
+        "response": "CON Request For Service \n1. Laundry Service Pricing\n2. Home Car wash",
+        "next_menu_level": 3,
         "action": "PROCESS_ABOUT"
       }
     ],
@@ -44,5 +44,28 @@
       }
     ],
     "max_selections": 3
+  },
+
+
+  "3": {
+    "id": 230,
+    "menu_level": 3,
+    "text": "Enter your details",
+    "menu_options": [
+      {
+        "type": "response",
+        "response": "END Full names:",
+        "next_menu_level": null,
+        "action": "PROCESS_INFORMATION_SERVICE"
+      },
+      {
+        "type": "response",
+        "response": "END  \n1.Saloon cars ksh 400\n 2.Lorries 1000\n3.Tuk tuk ksh 250",
+        "next_menu_level": null,
+        "action": "PROCESS_ABOUT"
+      }
+    ],
+    "max_selections": 3
   }
+
 }
