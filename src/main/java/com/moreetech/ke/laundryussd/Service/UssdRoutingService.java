@@ -115,7 +115,7 @@ public class UssdRoutingService {
             variablesMap.put("account_number", "123412512");
             response = replaceVariable(variablesMap, response);
         } else if (menuOption.getAction() == MenuOptionAction.PROCESS_ACC_PHONE_NUMBER) {
-            variablesMap.put("phone_number", "254702759950");
+            variablesMap.put("phone_number", "PHONE NUMBER GOES HERE");
             response = replaceVariable(variablesMap, response);
         }
 
