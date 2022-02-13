@@ -19,6 +19,7 @@ import static com.google.common.base.Predicates.or;
 
 /**
  * @author momondi  on 9/26/2021
+ Swagger configurations for API documentation
  **/
 public class SwaggerConfig {
     @Bean
