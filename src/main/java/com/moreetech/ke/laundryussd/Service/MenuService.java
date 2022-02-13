@@ -16,6 +16,7 @@ import java.util.Map;
 
 /**
  * @author momondi  on 9/26/2021
+ Handles menu menu management moving back and forth from the menu displayed at the users phone screen
  **/
 @Service
 public class MenuService {
