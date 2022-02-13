@@ -14,8 +14,8 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 @Configuration
 @EnableRedisRepositories
 
-// this solution adds phantom keys in Redis and other app like python reading
-// these keys will get two values for same key(1 orignal and 1 phantom)
+// these keys will get two values for same key
+//Redis config
 public class RedisConfiguration extends CachingConfigurerSupport {
 
     @Value("${moreetech.cache.host}")
