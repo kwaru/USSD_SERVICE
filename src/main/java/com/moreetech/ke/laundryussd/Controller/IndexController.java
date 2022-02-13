@@ -34,7 +34,7 @@ private UssdRoutingService ussdRoutingService;
         }
     }
 
-    @GetMapping("/test/")
+    @GetMapping("/test_url/")
     public String testgetservice(@RequestParam("name") String  name){
 
         return "Hello "+ name+" !!";
